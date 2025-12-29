@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dansuraito Ahiru's Web</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label for="name">Họ và tên:</label></td>
+                <td>
+                    <input type="text" id="name" name="name" placeholder="tên của bạn...">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="birthdate">Ngày sinh:</label></td>
+                <td>
+                    <input type="date" id="birthdate" name="birthdate">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="gender">Giới tính:</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male"> Nam
+                    <input type="radio" id="female" name="gender" value="female"> Nữ
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="phonenumber">Số điện thoại:</label></td>
+                <td>
+                    <input type="tel" id="phonenumber" name="phonenumber"
+                           maxlength="12"
+                           pattern="(0|\+84)[0-9]{8,12}"
+                           placeholder="SDT của bạn...">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td>
+                    <input type="email" id="email" name="email" placeholder="Email của bạn...">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="address">Địa chỉ:</label></td>
+                <td>
+                    <textarea id="address" name="address" rows="2" cols="30"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="role">Vai trò trong nhóm:</label></td>
+                <td>
+                    <select id="role" name="role">
+                        <option>Thành viên</option>
+                        <option>Leader</option>
+                        <option>Culi</option>
+                        <option>Nô lệ tư bản</option>
+                        <option>Thư ký</option>
+                        <option>Thủ quỹ</option>
+                        <option>Vice lead</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="skill">Kỹ năng:</label></td>
+                <td>
+                    <textarea id="skill" name="skill" rows="2" cols="30"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="freetime">Thời gian rảnh:</label></td>
+                <td>
+                    <input type="checkbox" id="morning" name="freetime" value="morning"> Sáng
+                    <input type="checkbox" name="afternoon" value="afternoon"> Chiều
+                    <input type="checkbox" name="evening" value="evening"> Tối
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="reason">Lý do tham gia nhóm:</label></td>
+                <td>
+                    <textarea id="reason" name="reason" rows="2" cols="30"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="color">Màu yêu thích:</label></td>
+                <td>
+                    <input type="color" id="color" name="color">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="signup">Đăng ký nhận bản tin:</label></td>
+                <td>
+                    <input type="checkbox" id="signup" name="signup"> Có
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="notification">Nhận thông báo qua:</label></td>
+                <td>
+                    <input type="radio" id="email" name="notification" value="email"> Email
+                    <input type="radio" id="SMS" notification" value="SMS"> SMS
+                </td>
+            </tr>
+        </table>
+        <button type="submit">Đăng ký thành viên</button>
+    </form>
+</body>
+</html>

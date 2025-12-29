@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Form: Để tạo biểu mẫu thao tác với các dữ liệu -->
+    <!-- method: get -->
+    <form action="" method="get">
+        <!-- thẻ input: Tạo những ô ng dùng nhập -->
+        <!-- type: Xác định kiểu dữ liệu người dùng nhập -->
+        <!-- text: Nhập chữ -->
+        <!-- placeholder:Dùng miêu tae hoặc ví dụ người dùng cần biết phải nhập gì -->
+        <!-- required: bắt buộc ng dùng phải nhập dữ liệu -->
+        <!-- readonly: chỉ đọc, ko được sửa -->
+        <!-- value: xét dữ liệu cho ô input -->
+        <div>
+            <!-- label: thẻ nhãn dán -->
+            <label for="username">Tên người dùng</label>
+            <input type="text"
+                   placeholder="Nhập tên người dùng"
+                   maxlength="10"
+                   minlength="2"
+                   name="username"
+                   id="username"
+                   value="ahiru"
+                   required
+                   readonly
+        /></div>
+        <br>
+        <!-- number: Nhập số -->
+        <div>Tuổi: <input type="number"/></div>
+        <br>
+        <!-- color: chọn màu -->
+        <div>Chọn màu yêu thích: <input type="color"/></div>
+        <br>
+        <!-- email: nhập email -->
+        <div>Email: <input type="email"/></div>
+        <br>
+        <!-- date: chọn ngày/tháng/năm -->
+        <div>Ngày tháng năm sinh: <input type="date"/></div>
+        <br>
+        <!-- passwork: Nhập thông tin bảo mật -->
+        <div>Mật khẩu: <input type="password"/></div>
+        <!-- range: Nhập rank -->
+        <div>Rank: <input type="range"/></div>
+
+        <div>
+            <!-- radio: chọn 1 option  -->
+            <label for="Nam">Nam</label>
+            <input type="radio" id="nam" name="gender" value="nam">
+            <label for="Nu">Nữ</label>
+            <input type="radio" id="nu" name="gender" value="nu">
+        </div>
+
+        <div>
+            <!-- checkbox: Chọn nhiều option -->
+            <label for="Nam">Nam</label>
+            <input type="checkbox" id="nam" name="gender" value="nam">
+            <label for="Nu">Nữ</label>
+            <input type="checkbox" id="nu" name="gender" value="nu">
+        </div>
+
+        <!-- select, option: lua chon drop -->
+        <div>
+            <select name="thanhPho" id="thanhPho">
+                <option value="haNam">Hà Nam</option>
+            </select>
+        </div>
+
+        <!-- textarea: Một input nhưng nhập được nhiều dòng -->
+        <textarea></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

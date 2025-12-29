@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahiru's web</title>
+</head>
+<body>
+    <h2>Đăng ký sinh viên mới</h2>
+    <form action="" method="get">
+        <label for="name">Họ và tên: </label>
+        <input type="text" id="name" name="name" value="Nguyễn Văn An"> <br> <br>
+        <label for="birthdate">Ngày sinh đầy đủ: </label>
+        <input type="date" id="birthdate" name="birthdate" value="2005-03-15"> <br> <br>
+        <label for="enrollyear">Tháng và năm nhập học: </label>
+        <input type="month" id="enrollyear" name="enrollyear" value="2023-09"> <br> <br>
+        <label for="timestudy">Thời gian học: </label>
+        <input type="time" id="timestudy" name="timestudy" value="08:00"> <br> <br>
+        <label for="gender">Giới tính: </label>
+        <input type="radio" id="male" name="gender" value="male">Nam 
+        <input type="radio" id="female" name="gender" value="female">Nữ
+        <input type="radio" id="other" name="gender" checked>Khác <br> <br>
+        <label for="email">Email sinh vien: </label>
+        <input type="email" id="email" name="email" value="sinhvien@university.edu.vn"> <br> <br>
+        <label for="password">Mật khẩu: </label>
+        <input type="password" id="password" name="password" value="hehehehehehehe"> <br> <br>
+        <label for="goal">Mục tiêu học tập: </label>
+        <textarea id="goal" name="goal" rows="4" cols="30">Muốn trở thành lập trình viên giỏi và đóng góp cho xã hội</textarea> <br> <br>
+        <label for="campus">Cơ sở: </label>
+        <select id="campus" name="campus">
+            <option value="haNoi">Hà Nội</option>
+            <option value="hcm">Hồ Chí Minh</option>
+            <option value="other">Khác</option>
+        </select> <br> <br>
+        <label for="avt">Ảnh thẻ sinh viên</label>
+        <input type="file" id="avt" name="avt"> <br> <br>
+        <label for="subject">Môn học yêu thích: </label>
+        <input type="checkbox" id="math" name="subject" value="math">Toán học
+        <input type="checkbox" id="code" name="subject" value="code">Lập trình
+        <input type="checkbox" id="english" name="subject" value="english">Tiếng Anh
+        <input type="checkbox" id="physic" name="subject" value="physic">Vật lý <br> <br>
+        <label for="studyrange">Tiến độ học tập: </label>
+        <input type="range" id="studyrange" name="studyrange"> <br> <br>
+        <label for="studyyear">Năm hoc thứ: </label>
+        <input type="number" id="studyyear" name="studyyear" value="2" min="1" max="5"> <br> <br>
+        <label for="search">Tìm kiếm hóa học: </label>
+        <input type="search" id="search" name="search" value="Khoa học máy tính"> <br> <br>
+        <label for="color">Màu sắc yêu thích: </label>
+        <input type="color" id="color" name="color"> <br> <br>
+        <button type="reset">Hủy</button>
+        <button type="reset">Làm mới</button>
+        <button type="submit">Gửi</button>
+    </form>
+</body>
+</html>
