@@ -1,0 +1,23 @@
+h3, p {
+    margin: 0;
+}
+div:hover {
+    margin: 0;
+    background-color: #e6f7ff;
+}
+img{
+    margin-bottom: 20px;
+}
+body{
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    line-height: 33px;
+    list-style: none;
+}
+h2, h3 {
+    color: #1e90ff;
+}

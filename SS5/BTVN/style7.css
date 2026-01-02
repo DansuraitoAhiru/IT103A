@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div:hover {
+    margin: 0;
+    background-color: #f4f4f9;
+}
+h2 {
+    margin: 0;
+    margin-bottom: 30px;
+    color: blue;
+    font-size: 50px;
+}
+i {
+    color: #1e90ff;
+    font-size: 25px;
+}
+img {
+    margin: 25px;
+    width: 25%;
+    height: 25%;
+}
+h3 {
+    color: #1e90ff;
+    font-size: 28px;
+}
+.cs1 {
+    color: red;
+    font-size: 18px;
+}
+.cs2 {
+    font-style: italic;
+    font-size: 17px;
+}
+.cs3 {
+    text-decoration: underline;
+    font-size: 17px;
+}
+.cs4 {
+    font-weight: bold;
+    font-size: 17px;
+}

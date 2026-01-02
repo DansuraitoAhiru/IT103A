@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label {
+    font-size: 20px;
+}
+h2{
+    margin-bottom: 25px;
+    color: #1e90ff;
+    font-size: 30px;
+}
+input  {
+    margin: 5px;
+    border-color:  #1e90ff;
+    height: 37px;
+}
+button {
+    color: white;
+    background-color: #00bfff;
+}
+input::placeholder{
+    font-size: 20px;
+    line-height: 20px;
+}
+textarea{
+    margin: 5px;
+    border-color:  #1e90ff;
+}
+textarea::placeholder{
+    font-size: 22px;
+}

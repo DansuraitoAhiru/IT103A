@@ -1,0 +1,21 @@
+header {
+    background-color: :lightyellow;
+    font-family: Arial, sans-serif;
+}
+header h1 {
+    margin: 0;
+    color: black;
+    background-color: #1eff29;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 2px;
+    padding-bottom: 12px;
+}
+
+header p {
+    margin: 0;
+    color: black;
+    background-color: #1eff29;
+    text-align: center;
+    font-size: 29px;
+}

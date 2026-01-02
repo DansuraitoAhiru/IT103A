@@ -1,0 +1,8 @@
+footer p {
+    margin: 0;
+    color: white;
+    background-color: #7fbaf5;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
