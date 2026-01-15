@@ -1,363 +1,102 @@
 * {
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
     margin: 0;
-    font-family: system-ui;
 }
 
 body {
-    background-color: #BEF6B7;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F1F5F9;
 }
 
-nav {
-    background-color: #1A472A;
-    text-align: center;
-    height: 50px;
-    padding-top: 26px;
-    position: fixed;
+.header {
+    background-color:   #0ea5e9;
     width: 100%;
-    z-index: 999;
-}
-
-.nav {
-    color:#FFFFFF;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 27px;
-    font-family: system-ui;
-}
-
-.nav:hover {
-    background-color: #2C8559;
-    text-decoration: underline;
-    border-radius: 5px;
-    padding: 12px 22px;
-}
-
-header {
-    padding: 80px;
-    background-image: url(https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1200);
-    background-position: center 45.5%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 60px;
-}
-
-header h1 {
-    color: black;
     text-align: center;
-    font-size: 48px;
-    font-family: system-ui;
-    margin-top: 6px;
-    margin-right: 20px;
-}
-
-header h1:hover {
-    color: #0000FF;
-}
-
-header p {
-    text-align: center;
-    font-family: system-ui;
-    margin-top: 20px;
-    font-size: 20px;
-}
-
-.welcome {
-    text-align: center;
-}
-
-.background {
-    margin-top: 20px;
-    border-radius: 8px;
-    width: 76%;
-    height: 800px;
-}
-
-.inside {
-    border-radius: 10px;
-    width: 400px;
-    position: absolute; 
-    right: 540px;
-    top: 40%;
-    transition: all 2s ease;
-}
-
-.inside:hover {
-    transform: scale(0.9) ;
-}
-
-.text1 {
     color: white;
-    font-family: system-ui;
-    font-size: 40px;
-    position: absolute;
-    top: 870px;
-    left: 430px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 160px;
 }
 
-.text2 {
-    font-family: system-ui;
-    color: white;
-    font-size: 19px;
-    position: absolute;
-    top: 950px;
-    left: 450px;
+.header h1 {
+    padding-top: 30px;
+    padding-bottom: 0px;
 }
 
-#introduction {
-    background-color: white;
-    margin: 40px 180px;
-    border-radius: 10px;
-    height: 370px;
-}
-
-#introduction h3 {
-    border-right: 5px solid #1A472A;
-    color: #1A472A;
-    font-family: system-ui;
-    font-size: 33px;
-    padding: 47px 56px 20px;
-}
-
-#introduction p {
-    font-family: system-ui;
-    color: #749A70;
-    padding: 10px 40px;
-}
-
-.note {
-    position: absolute;
-    top: 1310px;
-    left: 220px;
-    font-family: system-ui;
-    margin: 25px auto;
-    padding: 20px 20px 10px;
-    background-color: #FFF3CD;
-    width: 1030px;
-    border-left: 6px solid #FFC107;
-    border-radius: 5px;
-    color: #749A70;
-    height: 30px;
-}
-
-.note b {
-    color: #668E47;
-}
-
-#team {
-    background-color: white;
-    margin: 40px 180px;
-    border: 0;
-    border-radius: 10px;
-    height: 490px;
-}
-
-#team h3 {
-    color: #1A472A;
-    font-size: 33px;
-    padding: 47px 56px 20px;
-}
-
-#team table {
-    margin: auto 40px;
-    width: 93%;
-}
-
-#team th {
-    background-color: #1A472A;
-    color: white;
-    text-align: left;
-    height: 40px;
-}
-
-#team td {
-    color:#668E47;
-    border-bottom: 1px solid rgb(211, 206, 206);
-}
-
-#team tbody tr:hover {
-    background-color: #F5F5F5;
-}
-
-#date {
-    background-color: white;
-    margin: 40px 180px;
-    border: 0;
-    border-radius: 10px;
-    height: 630px;
-}
-
-#date h3 {
-    color: #1A472A;
-    font-size: 32px;
-    padding: 47px 56px 20px;
-}
-
-#date h4 {
-    color:#2D8659;
-    margin-left: 40px;
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.battle {
+.header p {
     margin-top: 30px;
 }
 
-#date ul {
-    margin-top: 10px;
-    color: #668E47;
-}
-
-#date li {
-    margin: 20px;
-    padding-bottom: 14px;
-    border-bottom: 0.5px dashed rgb(205, 203, 203);
-}
-
-#achievement {
-    background-color: white;
-    margin: 40px 180px;
-    border: 0;
+nav {
+    background-color: #E0F2FE;
+    margin: 20px 20px;
+    text-align: center;
     border-radius: 10px;
-    height: 670px;
-}
-
-#achievement h3 {
-    color: #1A472A;
-    font-size: 32px;
-    padding: 47px 56px 20px;
-}
-
-#achievement table {
-    margin: 10px 40px;
-    width: 93%;
-    border-color: rgb(235, 232, 232);
-}
-
-#achievement th {
-    background-color: #1A472A;
-    color: white;
-    margin: auto 40px;
-    text-align: left;
     padding: 15px;
 }
 
-#achievement td {
-    padding: 20px;
-    color: #668E47;
-    padding: 13px;
-}
-
-#achievement tbody tr:hover {
-    background-color: #F5F5F5;
-}
-
-#achievement tfoot {
-    text-align: center;
-    background-color: #F0F0F0;
+nav a {
+    text-decoration: none;
+    padding: 8px;
+    color: #036b9f;
     font-weight: bold;
-    border-bottom: 0px rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 15px;
 }
 
-.text3 {
-    position: absolute;
-    top: 3190px;
-    left: 220px;
-    background-color: #FFF3CD;
-    border-radius: 5px;
-    border-left:  6px solid #FFC107;
-    width: 1077px;
-    height: 110px;
+nav a:hover {
+    background-color:  #0284c7;
+    color: white;
+    padding: 10px;
 }
 
-.text3 h5 {
-    color: #668E47;
-    padding: 20px 20px 2px;
+.introduction {
+    background-color:  white;
+    height: 130px;
+    margin: 40px 20px;
+    border-radius: 10px;
+}
+
+.introduction h2 {
+    margin: 20px;
+    padding-top: 30px;
+}
+
+.introduction p {
+    margin: 20px;
+    padding-top: 1px;
     font-size: 16px;
 }
 
-.text3 b {
-    color: #668E47;
-}
-
-.text3 p {
-    color: #668E47;
-    padding-left: 20px;
-}
-
-#signup {
-    background-color: white;
-    margin: 40px 180px;
-    border: 0;
+.feature {
+    background-color: #ECFEFF;
+    margin: 40px 20px;
     border-radius: 10px;
-    height: 740px;
+    border-left: 4px solid #0284c7 ;
+    height: 200px;
 }
 
-#signup h3 {
-    color: #1A472A;
-    font-size: 32px;
-    padding: 47px 56px 5px;
-    border-bottom: 6px solid #9ACD32; 
+.feature  h2 {
+    margin: 20px;
+    padding-top: 30px;
 }
 
-#signup p {
-    padding: 20px 40px;
-    color: #748E47;
-    font-size: 17px;
+.feature li {
+    list-style: none;
+    margin-left: -18px;
+    padding: 2px 2px 9px;
 }
 
-#signup form {
-    background-color: #A1B2FF;
-    margin: auto 40px;
-    border-radius: 10px;
-}
-
-#signup label {
+.footer {
+    text-align: center;
+    background-color: black;
     color: white;
-    margin-left: 30px;
-    margin-top: 100px;
-}
-
-#signup input[type="text"] {
-    margin: 10px 30px;
-    width: 94%;
-    height: 30px;
-    border-radius: 7px;
-}
-
-#signup input[type="email"] {
-    margin: 1px 30px;
-    width: 94%;
-    height: 30px;
-    border-radius: 7px;
-}
-
-#signup select {
-    margin: 1px 30px;
-    width: 94%;
-    height: 30px;
-    border-radius: 7px;
-}
-
-#signup input[type="checkbox"] {
-    margin: 10px 4px 10px 26px;
-    color: white;
-}
-
-#signup textarea {
-    margin: 10px 30px;
-    border-radius: 7px;
-    width: 94%;
-}
-
-#signup button {
-    margin: 0px 30px 40px;
-    padding: 10px 30px;
-    border-radius: 10px;
-    background-color:#1A472A;
-    color: white;
-}
-
-#signup button:hover {
-    background-color: #2D8659;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    height: 200px;
+    padding: 50px;
+    line-height: 40px;
 }
