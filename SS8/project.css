@@ -11,6 +11,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #F8F9FA;
+}
+
 nav {
     background-color: #33475C;
     padding: 30px;
@@ -35,7 +39,7 @@ nav a:hover {
     border-radius: 5px;
 }
 
-.home {
+#home {
     text-align: center;
     background-color:#466786;
     font-size: 20px;
@@ -44,22 +48,22 @@ nav a:hover {
     padding-top: 60px;
 }
 
-.home h1 {
+#home h1 {
     padding: 45px 48px 15px;
     font-size: 48px;
 }
 
-.home p {
+#home p {
     font-size: 21px;
     padding: 0px;
 }
 
-.option {
+#home .option {
     position: absolute;
     top: 350px;
     left: 600px;
 }
-.home a {
+#home a {
     text-decoration: none;
     color: white;
     font-size: 16px;
@@ -95,12 +99,12 @@ nav a:hover {
     background-color: #577491;
 }
 
-.introduction {
+#introduction {
     background-color: #F8F9FA;
     height: 610px;
 }
 
-.introduction h2 {
+#introduction h2 {
     padding: 100px 140px 60px;
     color: #3498DB;
     font-size: 40px;
@@ -116,7 +120,7 @@ nav a:hover {
     margin-left: 140px;
 }
 
-.introduction p {
+#introduction p {
     margin: -4px 190px 20px;
 }
 
@@ -146,11 +150,11 @@ nav a:hover {
     line-height: 30px;
 }
 
-.projects {
+#projects {
     background-color: #FFFFFF;
 }
 
-.projects h2 {
+#projects h2 {
     text-align: center;
     padding-top: 100px;
     padding-bottom: 70px;
@@ -158,7 +162,7 @@ nav a:hover {
     font-size: 40px;
 }
 
-.projects img {
+#projects img {
     width: 220px;
     height: 300px;
     border-radius: 10px;
@@ -166,19 +170,19 @@ nav a:hover {
     transition: all 90ms ease;
 }
 
-#first {
+#projects #first {
     margin-left: 190px;
 }
 
-.projects img:hover {
+#projects img:hover {
     transform: scale(1.1);
 }
 
-.coolFeats {
+#coolFeats {
     background-color: #F8F9FA;
 }
 
-.coolFeats h2 {
+#coolFeats h2 {
     text-align: center;
     padding-top: 100px;
     padding-bottom: 70px;
@@ -220,3 +224,164 @@ nav a:hover {
 
 #function:hover span {
     transform: translateX(-160px);
+}
+
+#signup {
+    background-color: white;
+    margin: 190px 400px;
+    border-radius: 10px;
+    height: 1230px;
+}
+
+#signup h2 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    color: #2C3E50;
+    font-size: 40px;
+}
+
+#signup form {
+    margin: 10px 60p;
+}
+
+#signup label {
+    margin-left: 50px;
+    color: #2C3E50;
+    font-weight: bold;
+}
+
+#signup input[type="text"] {
+    width: 86%;
+    border-radius: 7px;
+    border: 1px solid #d3d3d3;
+    margin: 10px 53px;
+    padding: 16px;
+}
+
+#signup input[type="email"] {
+    width: 86%;
+    border-radius: 7px;
+    border: 1px solid #d3d3d3;
+    margin: 10px 53px;
+    padding: 16px;
+}
+
+#signup input[type="radio"] {
+    margin: 20px 5px 6px 50px;
+}
+
+#signup select {
+    width: 86%;
+    border-radius: 7px;
+    border: 1px solid #d3d3d3;
+    margin: 10px 53px;
+    padding: 16px;
+    font-size: 16px;
+}
+
+#signup input[type="checkbox"] {
+    margin: 20px 5px 6px 50px;
+}
+
+textarea {
+    width: 86%;
+    border-radius: 7px;
+    border: 1px solid #d3d3d3;
+    margin: 10px 53px;
+    padding: 16px;
+}
+
+#signup button {
+    width: 86%;
+    border-radius: 7px;
+    border: 1px solid #d3d3d3;
+    margin: 10px 53px;
+    padding: 16px;
+    background-color: #E74C3C;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#benefit {
+    background-color: white;
+    border-radius: 10px;
+    height: 800px;
+}
+
+#benefit h2 {
+    margin-left: 140px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    color: #E74C3C;
+    font-size: 40px;
+}
+
+#benefit p {
+    background-color: #FFF3CD;
+    margin: -30px 138px -30px 140px;
+    padding: 20px;
+    border-left: 4px solid #FFC107;
+}
+
+#benefit table {
+    margin: 60px 310px 0 140px;
+    width: 82%;
+    border-collapse: collapse;
+}
+
+#benefit thead th {
+    background-color: #D04132;
+    color: white;
+    padding: 16px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.gray {
+    background-color: #F8F9FA;
+}
+
+#benefit td {
+    padding: 20px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+#benefit tr:hover {
+    background-color: #FFF3F3;
+}
+
+#footer {
+    background-color: #2C3E50;
+    margin-top: 0px;
+    height: 250px;
+    text-align: center;
+}
+
+#footer h2 {
+    color: white;
+    font-size: 26px;
+    padding: 40px;
+    margin-bottom: -20px;
+}
+
+#footer p {
+    color: #D1D5D9;
+    background-color:#2C3E50;
+    line-height: 30px;
+    padding: 0px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-left: 190px;
+    width: 1140px;
+    color: #dcddde;
+    opacity: 0.1;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-weight: bold;
+}
