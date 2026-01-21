@@ -78,7 +78,7 @@ header a {
     background-color: white;
     margin: 40px 320px;
     width: 76%;
-    height: auto;
+    height: 190px;
     border-radius: 17px;
     box-shadow: 5px 3px 7px gray;
     gap: 500px;
@@ -896,4 +896,5 @@ header a {
     .python:hover {
         transform: translateY(-7px);
     }
+
 }
