@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #F8F9FA;
+}
+
+header {
+    text-align: center;
+    margin: 60px;
+    line-height: 57px;
+}
+
+header button {
+    background-color: #6366F11A;
+    color: #6366F1;
+    width: 89px;
+    height: 29px;
+    border-radius: 6px;
+    border: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header p {
+    font-size: 20px;
+    opacity: 0.6;
+}
+
+.course {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.level {
+    margin: 30px 0 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.price {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.fee {
+    font-size: 40px;
+    color: #6366F1;
+    font-weight: bold;
+}
+
+.opacity {
+    opacity: 0.4;
+    color: black;
+}
+
+hr {
+    width: 90%;
+    opacity: 0.4;
+    margin-left: 18px;
+}
+
+.basic {
+    background-color: white;
+    width: 360px;
+    height: 390px;
+    transition: all 0.2s ease;
+    border-radius: 10px;
+}
+
+.basic p {
+    margin: 10px 20px;
+}
+
+.basic button {
+    width: 330px;
+    background-color: white;
+    color: #0D6EFD;
+    border-color: #0D6EFD;
+    border-radius: 6px;
+    height: 40px;
+    margin: 20px 15px;
+    font-size: 20px;
+}
+
+.basic:hover {
+    transform: translateY(-30px);
+    border: 2px solid #0D6EFD;
+}
+
+.basic button:hover {
+    background-color: #0D6EFD;
+    color: white;
+}
+
+.pro {
+    background-color: white;
+    width: 360px;
+    height: 390px;
+    transition: all 0.2s ease;
+    border-radius: 10px;
+}
+
+.pro p {
+    margin: 10px 20px;
+}
+
+.pro button {
+    width: 330px;
+    background-color: white;
+    color: #0D6EFD;
+    border-color: #0D6EFD;
+    border-radius: 6px;
+    height: 40px;
+    margin: 20px 15px;
+    font-size: 20px;
+}
+
+.pro:hover {
+    transform: translateY(-30px);
+    border: 2px solid #0D6EFD;
+}
+
+.pro button:hover {
+    background-color: #0D6EFD;
+    color: white;
+}
+
+.company {
+    background-color: white;
+    width: 360px;
+    height: 390px;
+    transition: all 0.2s ease;
+    border-radius: 10px;
+}
+
+.company p {
+    margin: 10px 20px;
+}
+
+.company button {
+    width: 330px;
+    background-color: white;
+    color: #0D6EFD;
+    border-color: #0D6EFD;
+    border-radius: 6px;
+    height: 40px;
+    margin: 20px 15px;
+    font-size: 20px;
+}
+
+.company:hover {
+    transform: translateY(-30px);
+    border: 2px solid #0D6EFD;
+}
+
+.company button:hover {
+    background-color: #0D6EFD;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .course {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .basic {
+        width: 330px;
+        height: 440px;
+    }
+
+    .basic button {
+        width: 300px;
+        height: 40px;
+        margin: 30px 15px;
+    }
+
+    .pro {
+        width: 330px;
+        height: 440px;
+    }
+
+    .pro button {
+        width: 300px;
+        height: 40px;
+        margin: 30px 15px;
+    }
+
+    .company {
+        width: 330px;
+        height: 440px;
+    }
+
+    .company button {
+        width: 300px;
+        height: 40px;
+        margin: 30px 15px;
+    }
+}

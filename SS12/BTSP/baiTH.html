@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-learning Dashboard - Mini Responsive</title>
+    <link rel="stylesheet" href="baiTH.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <p>Elearning</p>
+            <input type="search" placeholder="Tìm kiếm khóa học"/>
+            <nav>
+                <a href="#studyCourse">Khóa học</a>
+                <a href="#progress">Tiến độ</a>
+                <a href="#">Hồ sơ</a>
+            </nav>
+        </header>
+
+        <main>
+            <div class="home">
+                <div class="intro">
+                    <h1>Xin chào, bạn tôi!</h1>
+                    <p>Chúc bạn học tập hiệu quả hôm nay</p>
+                </div>
+
+                <div id="progress">
+                    <p>Tiến độ tổng: 68%</p>
+                    <progress value="68" max="100"/>
+                </div>
+            </div>
+
+            <div id="studyCourse">
+                <h2>Khóa học đang học</h2>
+                <div class="countinue">
+                    <div class="css">
+                        <img class="rule1" src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&h=300&fit=crop" alt="hinh-1"/>
+                        <h4>CSS Flexbox & Grid</h4>
+                        <p>Hoàn thành: 85%</p>
+                        <button>Tiếp tục học</button>
+                    </div>
+
+                    <div class="javaScript">
+                        <img class="rule1" src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=400&h=300&fit=crop" alt="hinh-2"/>
+                        <h4>JavaScript cơ bản</h4>
+                        <p>Hoàn thành: 36%</p>
+                        <button>Tiếp tục học</button>
+                    </div>
+
+                    <div class="rwd">
+                        <img class="rule1" src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop" alt="hinh-3"/>
+                        <h4>Responsive Web Design</h4>
+                        <p>Hoàn thành: 96%</p>
+                        <button>Tiếp tục học</button>
+                    </div>
+                </div>
+                
+                <h2>Gợi ý khóa học</h2>
+                <div class="suggest">
+                    <div class="newbie">
+                        <img class="rule2" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop" alt="hinh-4"/>
+                        <h4>React cho người mới</h4>
+                        <p>Bắt đầu ngay hôm nay</p>
+                        <button>Xem chi tiết</button>
+                    </div>
+
+                    <div class="python">
+                        <img class="rule2" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop" alt="hinh-5"/>
+                        <h4>Python cơ bản</h4>
+                        <p>Phù hợp beginner</p>
+                        <button>Xem chi tiết</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

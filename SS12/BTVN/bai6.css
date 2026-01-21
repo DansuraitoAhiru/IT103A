@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #111827;
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 100%;
+    max-width: 1350px;
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.eduLearn {
+    width: 400px;
+    display: flex;
+    gap: 20px;
+    color: white;
+    padding: 10px 5px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+p {
+    opacity: 0.5;
+}
+.eduLearn h3 {
+    font-size: 30px;
+    background: linear-gradient(to right, blue, violet);
+    font-weight: bold;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.social {
+    display: flex;
+    gap: 15px;
+}
+.others {
+    width: 160px;
+    display: flex;
+    gap: 15px;
+    padding: 10px 5px;
+    color: white;
+    flex-direction: column;
+    font-size: 16px;
+}
+.title {
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.copyright {
+    padding: 10px 0px;
+    border-top: 1px solid rgb(202, 197, 197);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+  .eduLearn {
+    max-width: 100%;
+  }
+}
