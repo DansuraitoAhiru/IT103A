@@ -1,0 +1,48 @@
+body {
+    background-color: #f8f9fa; 
+    font-family: sans-serif; 
+}
+
+.card { 
+    border: none; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+    overflow: hidden; 
+    transition: all 0.3s ease;
+}
+
+.card:hover { 
+    transform: translateY(-5px); 
+}
+        
+.badge-category { 
+    position: absolute; 
+    top: 10px; left: 10px; 
+    border-radius: 5px; 
+    padding: 5px 10px; 
+    font-size: 12px; 
+}
+        
+.course-img { 
+    height: 180px; object-fit: cover; 
+}
+        
+.progress { 
+    height: 8px; 
+    border-radius: 10px; 
+}
+        
+.btn-primary-custom { 
+    background-color: #6c63ff !important; 
+    border: none; 
+}
+        
+.btn-outline-custom { 
+    border: 1px solid #6c63ff !important; 
+    color: #6c63ff; 
+}
+        
+.status-text { 
+    font-size: 0.85rem; 
+    color: #1647db; 
+}

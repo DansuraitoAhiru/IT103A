@@ -1,0 +1,7 @@
+button {
+    transition: all 0.2 ease;
+}
+button:hover {
+    background-color: #6366F1 !important;
+    transform: scale(1.1);
+}
